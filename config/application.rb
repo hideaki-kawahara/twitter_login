@@ -15,5 +15,9 @@ module TwitterLogin
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
+    # config.i18n.default_locale = :ja #日本語化する
+    config.time_zone = 'Asia/Tokyo' #タイムゾーンを日本時間にする
+    config.assets.initialize_on_precompile = false
+    config.assets.js_compressor = Uglifier.new(harmony: true)
   end
 end
