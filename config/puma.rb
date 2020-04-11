@@ -10,6 +10,11 @@ threads threads_count, threads_count
 # Specifies the `port` that Puma will listen on to receive requests; default is 3000.
 #
 port        ENV.fetch("PORT") { 3000 }
+# ssl_bind "0.0.0.0", "3000", {
+#   cert: "/Users/kawaharahideaki/Project/twitter_login/config/certs/localhost.pem",
+#   key:  "/Users/kawaharahideaki/Project/twitter_login/config/certs/localhost-key.pem",
+#   verify_mode: "none"
+# }
 
 # Specifies the `environment` that Puma will run in.
 #
