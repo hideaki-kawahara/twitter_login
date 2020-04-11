@@ -57,7 +57,7 @@ group :development do
 end
 
 gem 'sqlite3', groups: %w(test development), require: false
-gem 'pg', groups: %w(production), require: false
+gem 'pg', '~> 0.18', groups: %w(production), require: false
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
