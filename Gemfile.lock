@@ -253,7 +253,7 @@ DEPENDENCIES
   omniauth-twitter
   pg
   puma (~> 3.11)
-  rails (~> 5.2.4)
+  rails (~> 5.2.3)
   sass-rails (~> 5.0)
   selenium-webdriver
   spring
