@@ -56,7 +56,7 @@ group :development do
   # Use sqlite3 as the database for Active Record
 end
 
-gem 'sqlite3', groups: %w(test development), require: false
+gem 'sqlite3', '~> 1.3.0', groups: %w(test development), require: false
 gem 'pg', '~> 0.18', groups: %w(production), require: false
 
 group :test do
